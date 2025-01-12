@@ -80,7 +80,7 @@ fun HomeScreen(
             modifier = Modifier.padding(innerPadding),
             onDetailClick = onDetailClick,
             onDeleteClick = {
-                viewModel.getMhs()
+                viewModel.deleteMhs(it)
             }
         )
     }
