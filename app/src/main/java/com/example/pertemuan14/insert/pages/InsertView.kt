@@ -203,9 +203,9 @@ fun FormMahasiswa(
                     horizontalArrangement = Arrangement.Start
                 ){
                     RadioButton(
-                        selected = mahasiswaEvent.jenisKelamin == jk,
+                        selected = mahasiswaEvent.jenis_kelamin == jk,
                         onClick = {
-                            onValueChange(mahasiswaEvent.copy(jenisKelamin = jk))
+                            onValueChange(mahasiswaEvent.copy(jenis_kelamin = jk))
                         },
                     )
                     Text(text = jk,)
@@ -213,7 +213,7 @@ fun FormMahasiswa(
             }
         }
         Text(
-            text = errorState.jenisKelamin ?: "",
+            text = errorState.jenis_kelamin ?: "",
             color = Color.Red)
 
         OutlinedTextField(

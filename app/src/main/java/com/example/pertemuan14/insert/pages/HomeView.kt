@@ -1,4 +1,4 @@
-package com.example.pertemuan14.ui.home.pages
+package com.example.pertemuan14.insert.pages
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -35,15 +35,12 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.nestedscroll.nestedScroll
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.pertemuan14.model.Mahasiswa
 import com.example.pertemuan14.ui.PenyediaViewModel
-import com.example.pertemuan14.ui.home.viewmodel.HomeViewModel
-import com.example.pertemuan14.ui.home.viewmodel.HomeuiState
+import com.example.pertemuan14.insert.viewmodel.HomeViewModel
+import com.example.pertemuan14.insert.viewmodel.HomeuiState
 
 
 @OptIn(ExperimentalMaterial3Api::class)

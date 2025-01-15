@@ -1,4 +1,4 @@
-package com.example.pertemuan14.ui.home.viewmodel
+package com.example.pertemuan14.insert.viewmodel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

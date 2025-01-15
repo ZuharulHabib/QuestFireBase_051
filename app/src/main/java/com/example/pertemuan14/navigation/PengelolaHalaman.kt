@@ -7,7 +7,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.pertemuan14.insert.pages.InsertMhsView
-import com.example.pertemuan14.ui.home.pages.HomeScreen
+import com.example.pertemuan14.insert.pages.HomeScreen
 
 @Composable
 fun PengelolaHalaman(
